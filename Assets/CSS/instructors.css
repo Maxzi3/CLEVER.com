@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Section1 begins */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 0.7rem;
+  color: rgba(128, 128, 128, 0.623);
+}
+header div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 0 1rem;
+}
+header .item1 p {
+  border-right: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0.5rem 1rem;
+}
+header div i {
+  border-left: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0.5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+nav ul li {
+  display: inline;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.623);
+}
+nav a:hover {
+  color: black;
+  transition: 2s;
+  cursor: default;
+}
+nav .btn1 {
+  padding: 0.5rem;
+  color: rgba(0, 0, 255, 0.833);
+  background-color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+nav .btn1:hover {
+  background-color: rgba(0, 0, 255, 0.253);
+  border-radius: 7px;
+  padding: 0.8rem 1rem;
+  transition: 1s;
+}
+nav .btn2 {
+  padding: 0.8rem 1rem;
+  color: rgba(0, 0, 255, 0.833);
+  background-color: rgba(0, 0, 255, 0.253);
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 8px;
+}
+nav button input {
+  padding: 0.2rem;
+  border: none;
+  outline: none;
+}
+nav .btn3 {
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+/* Section1 begins */
+
+.section1 {
+  margin-bottom: 4rem;
+}
+.section1 #container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.8rem 2rem;
+  font-size: 0.7rem;
+}
+.section1 #container a {
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.623);
+}
+.section1 #container a {
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.623);
+}
+
+.section1 .item3 {
+  background-image: url("../images/pexels-brett-sayles-5916126.jpg");
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: 5px 8px;
+  background-attachment: fixed;
+}
+.section1 .overlay {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 350px;
+  opacity: 9;
+}
+.section1 .item3 .item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 1rem;
+}
+.section1 .item3 div h1 {
+  font-size: 5rem;
+  color: blue;
+  text-transform: capitalize;
+}
+/* Section1 Styling ends */
+
+/* Section2 Styling Begins */
+
+.section2 {
+  width: 90%;
+  margin: auto;
+  padding: 5rem;
+}
+.section2 h1{
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.section2 main {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+.section2 main .container .img1{
+  background-image: url("../images/t1.png");
+  background-size: cover;
+  width: 30%;
+  height: 80px;
+  border-radius: 7px;
+}
+.section2 main .container .img2{
+  background-image: url("../images/t2.png");
+  background-size: cover;
+  width: 30%;
+  height: 80px;
+  border-radius: 7px;
+} 
+.section2 main .container .img3{
+  background-image: url("../images/t3.png");
+  background-size: cover;
+  width: 30%;
+  height: 80px;
+  border-radius: 7px;
+}
+.section2 main .container .img4{
+  background-image: url("../images/t4.png");
+  background-size: cover;
+  width: 30%;
+  height: 80px;
+  border-radius: 7px;
+}
+.section2 main .container {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.105);
+  width: 30%;
+  height: 80px;
+  border-radius: 7px;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.208);
+}
+.section2 main .container .textcon h4{
+ padding: 1rem;
+ font-size: 1.2rem;
+}
+.section2 main .container .textcon p{
+ padding: 0 1rem;
+ color: rgb(72, 72, 72);
+ font-size: 1rem;
+}
+/* Section2 Styling ends */
+/* Section3 Styling begins */
+.section3 {
+  background-color: rgba(0, 0, 0, 0.811);
+  margin-top: 2rem;
+}
+.section3 h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  color: #fff;
+  font-weight: 800;
+}
+.section3 .p1 {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 1rem;
+  color: rgba(128, 128, 128, 0.623)
+}
+.section3 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-top: 3rem;
+  color: rgba(128, 128, 128, 0.623);
+  border-top: 1px solid rgba(128, 128, 128, 0.623);
+  background-color: rgba(0, 0, 0, 0.32);
+}
+.section3 footer div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0 1rem;
+}
+.section3 footer .item1 p {
+  border-right: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 1rem 1rem;
+}
+.section3 footer div i {
+  border-left: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 1rem;
+}
+.section3.p2 {
+  text-align: right;
+}
+.section3 .hover:hover {
+  color: white;
+  transition: 2s;
+  cursor: pointer;
+}
+.section3 button .uil-angle-up {
+  background-color: rgba(0, 0, 255, 0.833);
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.2rem 0.3rem;
+  font-size: 2rem;
+  box-shadow: 2px 10px 10px rgba(12, 12, 255, 0.413);
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+#btn{
+  display: none;
+}
+/* Section3 styling Ends */

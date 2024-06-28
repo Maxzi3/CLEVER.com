@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 0.7rem;
+  color: rgba(128, 128, 128, 0.623);
+}
+header div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 0 1rem;
+}
+header .item1 p {
+  border-right: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0.5rem 1rem;
+}
+header div i {
+  border-left: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0.5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+nav h1{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+nav ul li {
+  display: inline;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.623);
+}
+nav a:hover{
+  color: black;
+  transition: 2s;
+}
+nav .btn1 {
+  padding: 0.5rem;
+  color: rgba(0, 0, 255, 0.833);
+  background-color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+nav .btn1:hover{
+  background-color: rgba(0, 0, 255, 0.253);
+  border-radius: 7px;
+   padding: 0.8rem 1rem;
+   transition: 1s;
+}
+nav .btn2 {
+  padding: 0.8rem 1rem;
+  color: rgba(0, 0, 255, 0.833);
+  background-color: rgba(0, 0, 255, 0.253);
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;   
+  border-radius: 8px;
+}
+nav button input {
+  padding: 0.2rem;
+  border: none;
+  outline: none;
+}
+nav .btn3 {
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+/* Section8 Styling Begins */
+.section1 .item3 {
+  background-image: url("../images/pexels-brett-sayles-5916126.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 5px 8px;
+  background-attachment: fixed;
+}
+.section1 .overlay {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  opacity: 9;
+}
+.section1 .item3 .item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 1rem;
+}
+.section1 .item3 div h1 {
+  padding: 2rem;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.section1 .item3 div button {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.833);
+  color: #fff;
+}
+/* Section1 styling Ends */
+
+/* Section2 styling Begins */
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+  margin: 7rem auto;
+}
+
+.section2 .item {
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 1rem;
+  width: 25%;
+  height: 220px;
+}
+
+.section2 .item h1 {
+  color: rgba(0, 0, 255, 0.833);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.section2 .item p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Section2 styling Ends */
+
+/* Section3 Styling Begins */
+.section3 {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.section3 .head1 {
+  text-align: center;
+  padding: 4rem;
+  font-size: 2rem;
+}
+.section3 article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  width: 28%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.208);
+}
+.section3 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+.section3 article img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.section3 article h1 {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem 0.5rem 1rem;
+}
+.section3 article .p1 {
+  font-size: 1rem;
+  padding: 1rem 2rem 2rem 1rem;
+  font-weight: 100;
+}
+
+.section3 article .item1 {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1.5rem 1rem 1rem;
+  color: rgba(128, 128, 128, 0.623);
+}
+.section3 article .item2 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  background-color: rgba(128, 128, 128, 0.623);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.section3 article .item2 div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.section3 article .item2 .p2,
+.p3 {
+  border-right: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0.8rem 1rem;
+}
+.section3 article .item2 .p4 {
+  background-color: rgba(0, 0, 255, 0.833);
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.8rem 1rem;
+  border-bottom-right-radius: 10px;
+}
+.section3 article .item2 .p5 {
+  background-color: rgb(177, 205, 50);
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.8rem 1.5rem;
+  border-bottom-right-radius: 10px;
+}
+/* Section3 styling Ends */
+
+/* Section4 styling begins */
+
+.section4 h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 6rem 2rem 10rem 2rem;
+}
+/* Section4 styling Ends */
+
+/* Section5 Styling Begins */
+.section5 {
+  background-color: rgba(192, 217, 248, 0.845);
+}
+.section5 article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin: auto;
+  width: 90%;
+  padding: 1rem 2rem;
+}
+.section5 article .item1 form {
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.section5 article .item1 h1 {
+  padding: 2rem 1.5rem;
+}
+.section5 article .item1 input {
+  width: 44%;
+  padding: 0.8rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  border-radius: 10px;
+}
+.section5 article .item1 button {
+  padding: 0.8rem 8rem;
+  margin-left: 4rem;
+  background-color: rgba(0, 0, 255, 0.833);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.section5 article .item2 {
+  width: 60%;
+  padding: 4rem 0;
+}
+.section5 article .item2 h2 {
+  font-size: 2rem;
+}
+.section5 article .item2 p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.section5 article .item2 main {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+.section5 article .item2 main div {
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.section5 article .item2 main div h1 {
+  padding: 0.8rem 1rem;
+  font-size: 2rem;
+  color: rgba(0, 0, 255, 0.833);
+}
+.section5 article .item2 main .items {
+  padding: 0 1rem;
+}
+.section5 article .item2 main .item {
+  padding: 0 0.4rem;
+}
+.section5 article .item2 main div p {
+  padding: 0 1rem 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+/* Section5 styling Ends */
+
+/* Section6 Styling Begins */
+.section6 {
+  width: 90%;
+  margin: auto;
+}
+.section6 article {
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.208);
+}
+.section6 h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 5rem;
+}
+.section6 main {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  padding: 5rem 0;
+}
+.section6 article .item {
+  background-image: url("../images/e1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+}
+.section6 article .overlay {
+  background-color: rgba(0, 0, 0, 0.578);
+  height: 160px;
+  opacity: 0.9;
+}
+.section6 article .item11 {
+  background-image: url("../images/e2.jpg");
+}
+
+.section6 article .item12 {
+  background-image: url("../images/e3.jpg");
+}
+
+.section6 article .item h5 {
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+.section6 article .item h2 {
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+.section6 article .item1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.623);
+}
+.section6 article .item1 .p2 {
+  background-color: rgb(177, 205, 50);
+  padding: 0.8rem 1.3rem;
+}
+.section6 article .item1 .p3 {
+  background-color: rgba(0, 0, 255, 0.833);
+  padding: 0.8rem 1rem;
+}
+.section6 article .item1 .p1 {
+  padding: 0.8rem 2rem;
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.913);
+}
+/* Section6 styling Ends */
+
+/* Section7 Styling Begins */
+.section7 .head1 {
+  text-align: center;
+  padding: 4rem;
+}
+.section7 article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  width: 45%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.208);
+}
+.section7 article .img {
+  background-image: url("../images/w1.jpg");
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  height: 180px;
+}
+.section7 article .img1 {
+  background-image: url("../images/w2.jpg");
+}
+.section7 article h1 {
+  font-size: 2rem;
+  padding: 1rem 1.5rem 0.5rem 1rem;
+}
+.section7 article .p1 {
+  font-size: 1rem;
+  padding: 1rem 2rem 1rem 1rem;
+  font-weight: 300;
+}
+
+.section7 article .item1 {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1.5rem 0.5rem 1rem;
+  color: rgba(128, 128, 128, 0.623);
+}
+.section7 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+/* Section7 styling Ends */
+
+/* Section8 Styling Begins */
+.section8 {
+  background-color: rgba(0, 0, 0, 0.811);
+  margin-top: 2rem;
+}
+.section8 h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  color: #fff;
+  font-weight: 800;
+}
+.section8 .p1 {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 1rem;
+   color: rgba(128, 128, 128, 0.623)
+}
+.section8 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-top: 3rem;
+  color: rgba(128, 128, 128, 0.623);
+  border-top: 1px solid rgba(128, 128, 128, 0.623);
+  background-color: rgba(0, 0, 0, 0.32);
+}
+.section8 footer div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0 1rem;
+}
+.section8 footer .item1 p {
+  border-right: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 1rem 1rem;
+}
+.section8 footer div i {
+  border-left: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 1rem;
+}
+.section8 .hover:hover {
+  color: white;
+  transition: 2s;
+  cursor: pointer;
+}
+.section8 .item2{
+  font-size: 1rem;
+}
+
+.section8 button .uil-angle-up {
+  background-color: rgba(0, 0, 255, 0.833);
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.2rem 0.3rem;
+  font-size: 2rem;
+  box-shadow: 2px 10px 10px rgba(12, 12, 255, 0.413);
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+#btn{
+  display: none;
+}
+
+/* #preloader{
+  width: 100%;
+  height: 100vh;
+  background: black url("https://images.app.goo.gl/jcUtcQfNRKNVBBSh7") no-repeat center center;
+  position: fixed;
+  z-index: 100;
+  
+
+} */
+/* Section8 styling Ends */
